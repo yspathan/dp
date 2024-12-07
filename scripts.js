@@ -1,23 +1,3 @@
-  
-    let currentUser = null;
-
-    window.onload = function () {
-      const storedUserId = localStorage.getItem("userId");
-      const storedUserName = localStorage.getItem("userName");
-
-      if (storedUserId && storedUserName) {
-        currentUser = storedUserId;
-        document.getElementById("login-section").classList.add("hidden");
-        document.getElementById("main-section").classList.remove("hidden");
-        document.getElementById("userName").textContent = storedUserName;
-
-        // Load user data
-        loadUserData(storedUserId);
-      }
-    };
-
-
-
 
 
     function login() {
