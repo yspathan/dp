@@ -1,5 +1,5 @@
 
-
+<script>
     function login() {
       const userId = document.getElementById("userId").value;
       const password = document.getElementById("password").value;
@@ -189,3 +189,4 @@ function clearData() {
 
     // Other functions like login, loadUserData, etc.
 
+</script>
