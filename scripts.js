@@ -1,4 +1,4 @@
-  <script>
+  
     let currentUser = null;
 
     window.onload = function () {
@@ -208,4 +208,4 @@ function clearData() {
     }
 
     // Other functions like login, loadUserData, etc.
-  </script>
+
